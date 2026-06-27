@@ -1,0 +1,43 @@
+2026-06-26 07:00:01, Security, 4624, Successful Login, User: james.wilson, Source IP: 192.168.1.40, Logon Type: 2, Domain: CORP
+2026-06-26 07:05:00, Security, 4624, Successful Login, User: emma.davis, Source IP: 192.168.1.55, Logon Type: 2, Domain: CORP
+2026-06-26 07:10:00, Security, 4624, Successful Login, User: IT-Admin, Source IP: 192.168.1.5, Logon Type: 2, Domain: CORP
+2026-06-26 07:15:00, Network, 4688, New Process Created, User: IT-Admin, Process: nmap.exe, Parent Process: cmd.exe, Source IP: 192.168.1.5, Target: 192.168.1.0/24
+2026-06-26 07:16:00, Network, 4688, New Process Created, User: IT-Admin, Process: nmap.exe, Parent Process: cmd.exe, Source IP: 192.168.1.5, Target: 192.168.1.0/24, Ports: 22,80,443,445,3389
+2026-06-26 07:17:00, Network, 4688, New Process Created, User: IT-Admin, Process: nmap.exe, Parent Process: cmd.exe, Source IP: 192.168.1.5, Target: 192.168.1.0/24, Ports: 22,80,443,445,3389
+2026-06-26 07:30:00, Security, 4625, Failed Login, User: james.wilson, Source IP: 45.33.32.156, Logon Type: 10, Domain: CORP
+2026-06-26 07:30:02, Security, 4625, Failed Login, User: james.wilson, Source IP: 45.33.32.156, Logon Type: 10, Domain: CORP
+2026-06-26 07:30:04, Security, 4625, Failed Login, User: james.wilson, Source IP: 45.33.32.156, Logon Type: 10, Domain: CORP
+2026-06-26 07:30:06, Security, 4625, Failed Login, User: james.wilson, Source IP: 45.33.32.156, Logon Type: 10, Domain: CORP
+2026-06-26 07:30:08, Security, 4625, Failed Login, User: james.wilson, Source IP: 45.33.32.156, Logon Type: 10, Domain: CORP
+2026-06-26 07:30:10, Security, 4624, Successful Login, User: james.wilson, Source IP: 45.33.32.156, Logon Type: 10, Domain: CORP
+2026-06-26 07:31:00, Security, 4688, New Process Created, User: james.wilson, Process: cmd.exe, Parent Process: explorer.exe, Source IP: 45.33.32.156
+2026-06-26 07:31:30, Security, 4688, New Process Created, User: james.wilson, Process: powershell.exe, Parent Process: cmd.exe, Source IP: 45.33.32.156
+2026-06-26 07:32:00, Security, 4688, New Process Created, User: james.wilson, Process: whoami.exe, Parent Process: powershell.exe, Source IP: 45.33.32.156
+2026-06-26 07:32:30, Security, 4688, New Process Created, User: james.wilson, Process: ipconfig.exe, Parent Process: powershell.exe, Source IP: 45.33.32.156
+2026-06-26 07:33:00, Security, 4688, New Process Created, User: james.wilson, Process: net.exe, Parent Process: powershell.exe, Source IP: 45.33.32.156
+2026-06-26 07:35:00, Security, 4688, New Process Created, User: james.wilson, Process: mimikatz.exe, Parent Process: powershell.exe, Source IP: 45.33.32.156
+2026-06-26 07:36:00, Security, 4688, New Process Created, User: james.wilson, Process: ransomware_payload.exe, Parent Process: powershell.exe, Source IP: 45.33.32.156
+2026-06-26 07:36:30, Security, 4663, File Accessed, User: james.wilson, File: C:\Users\james.wilson\Documents\project.docx.encrypted, Source IP: 45.33.32.156
+2026-06-26 07:36:31, Security, 4663, File Accessed, User: james.wilson, File: C:\Users\emma.davis\Documents\salary.xlsx.encrypted, Source IP: 45.33.32.156
+2026-06-26 07:36:32, Security, 4663, File Accessed, User: james.wilson, File: C:\Finance\annual_report.xlsx.encrypted, Source IP: 45.33.32.156
+2026-06-26 07:36:33, Security, 4663, File Accessed, User: james.wilson, File: C:\HR\employee_records.xlsx.encrypted, Source IP: 45.33.32.156
+2026-06-26 07:36:34, Security, 4663, File Accessed, User: james.wilson, File: C:\Legal\contracts.docx.encrypted, Source IP: 45.33.32.156
+2026-06-26 07:37:00, Security, 4688, New Process Created, User: james.wilson, Process: notepad.exe, Parent Process: ransomware_payload.exe, File: C:\Users\README_RANSOM.txt, Source IP: 45.33.32.156
+2026-06-26 07:40:00, Security, 4720, New User Account Created, User: backdoor_svc, Created By: james.wilson, Source IP: 45.33.32.156
+2026-06-26 07:41:00, Security, 4728, User Added to Admin Group, User: backdoor_svc, Added By: james.wilson, Group: Administrators
+2026-06-26 07:45:00, Security, 4698, Scheduled Task Created, User: backdoor_svc, Task: windows_update_helper.exe, Source IP: 45.33.32.156
+2026-06-26 08:00:00, Security, 4624, Successful Login, User: emma.davis, Source IP: 192.168.1.55, Logon Type: 2, Domain: CORP
+2026-06-26 08:05:00, Security, 4663, File Accessed, User: emma.davis, File: C:\Finance\annual_report.xlsx, Source IP: 192.168.1.55
+2026-06-26 08:06:00, Security, 4663, File Accessed, User: emma.davis, File: C:\Finance\Q3_projections.xlsx, Source IP: 192.168.1.55
+2026-06-26 08:07:00, Security, 4663, File Accessed, User: emma.davis, File: C:\HR\employee_records.xlsx, Source IP: 192.168.1.55
+2026-06-26 08:08:00, Security, 4663, File Accessed, User: emma.davis, File: C:\HR\salary_bands.xlsx, Source IP: 192.168.1.55
+2026-06-26 08:09:00, Security, 4663, File Accessed, User: emma.davis, File: C:\Legal\acquisition_plans.xlsx, Source IP: 192.168.1.55
+2026-06-26 08:10:00, Security, 4688, New Process Created, User: emma.davis, Process: ftp.exe, Parent Process: explorer.exe, Source IP: 192.168.1.55, Destination: 203.0.113.50
+2026-06-26 08:11:00, Network, Data Transfer, User: emma.davis, Source IP: 192.168.1.55, Destination IP: 203.0.113.50, Protocol: FTP, File: annual_report.xlsx, Size: 2.5MB
+2026-06-26 08:12:00, Network, Data Transfer, User: emma.davis, Source IP: 192.168.1.55, Destination IP: 203.0.113.50, Protocol: FTP, File: employee_records.xlsx, Size: 5.1MB
+2026-06-26 08:13:00, Network, Data Transfer, User: emma.davis, Source IP: 192.168.1.55, Destination IP: 203.0.113.50, Protocol: FTP, File: acquisition_plans.xlsx, Size: 1.8MB
+2026-06-26 08:14:00, Network, Data Transfer, User: emma.davis, Source IP: 192.168.1.55, Destination IP: 203.0.113.50, Protocol: FTP, File: salary_bands.xlsx, Size: 890KB
+2026-06-26 08:30:00, Security, 4624, Successful Login, User: IT-Admin, Source IP: 192.168.1.5, Logon Type: 2, Domain: CORP
+2026-06-26 08:35:00, Security, 4688, New Process Created, User: IT-Admin, Process: netstat.exe, Parent Process: cmd.exe, Source IP: 192.168.1.5
+2026-06-26 08:36:00, Security, 4688, New Process Created, User: IT-Admin, Process: tasklist.exe, Parent Process: cmd.exe, Source IP: 192.168.1.5
+2026-06-26 09:00:00, Security, 1102, Audit Log Cleared, Cleared By: james.wilson, Source IP: 45.33.32.156

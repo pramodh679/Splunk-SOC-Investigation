@@ -1,0 +1,30 @@
+2026-06-25 08:01:12, Security, 4624, Successful Login, User: john.doe, Source IP: 192.168.1.10, Logon Type: 2, Domain: CORP
+2026-06-25 08:02:45, Security, 4624, Successful Login, User: jane.smith, Source IP: 192.168.1.15, Logon Type: 2, Domain: CORP
+2026-06-25 08:10:01, Security, 4625, Failed Login, User: admin, Source IP: 192.168.1.50, Logon Type: 3, Domain: CORP
+2026-06-25 08:10:03, Security, 4625, Failed Login, User: admin, Source IP: 192.168.1.50, Logon Type: 3, Domain: CORP
+2026-06-25 08:10:05, Security, 4625, Failed Login, User: admin, Source IP: 192.168.1.50, Logon Type: 3, Domain: CORP
+2026-06-25 08:10:07, Security, 4625, Failed Login, User: admin, Source IP: 192.168.1.50, Logon Type: 3, Domain: CORP
+2026-06-25 08:10:09, Security, 4625, Failed Login, User: admin, Source IP: 192.168.1.50, Logon Type: 3, Domain: CORP
+2026-06-25 08:10:11, Security, 4625, Failed Login, User: admin, Source IP: 192.168.1.50, Logon Type: 3, Domain: CORP
+2026-06-25 08:10:13, Security, 4625, Failed Login, User: admin, Source IP: 192.168.1.50, Logon Type: 3, Domain: CORP
+2026-06-25 08:10:15, Security, 4624, Successful Login, User: admin, Source IP: 192.168.1.50, Logon Type: 3, Domain: CORP
+2026-06-25 08:15:22, Security, 4688, New Process Created, User: admin, Process: cmd.exe, Parent Process: explorer.exe, Source IP: 192.168.1.50
+2026-06-25 08:15:25, Security, 4688, New Process Created, User: admin, Process: powershell.exe, Parent Process: cmd.exe, Source IP: 192.168.1.50
+2026-06-25 08:16:10, Security, 4688, New Process Created, User: admin, Process: mimikatz.exe, Parent Process: powershell.exe, Source IP: 192.168.1.50
+2026-06-25 08:20:33, Security, 4720, New User Account Created, User: backdoor_user, Created By: admin, Source IP: 192.168.1.50
+2026-06-25 08:21:00, Security, 4728, User Added to Admin Group, User: backdoor_user, Added By: admin, Group: Administrators
+2026-06-25 08:25:44, Security, 4625, Failed Login, User: administrator, Source IP: 10.0.0.99, Logon Type: 10, Domain: CORP
+2026-06-25 08:25:46, Security, 4625, Failed Login, User: administrator, Source IP: 10.0.0.99, Logon Type: 10, Domain: CORP
+2026-06-25 08:25:48, Security, 4625, Failed Login, User: administrator, Source IP: 10.0.0.99, Logon Type: 10, Domain: CORP
+2026-06-25 08:25:50, Security, 4625, Failed Login, User: administrator, Source IP: 10.0.0.99, Logon Type: 10, Domain: CORP
+2026-06-25 08:25:52, Security, 4625, Failed Login, User: administrator, Source IP: 10.0.0.99, Logon Type: 10, Domain: CORP
+2026-06-25 08:25:54, Security, 4740, Account Locked Out, User: administrator, Source IP: 10.0.0.99
+2026-06-25 08:30:15, Security, 4634, User Logoff, User: john.doe, Source IP: 192.168.1.10
+2026-06-25 08:45:00, Security, 4698, Scheduled Task Created, User: admin, Task: malware_persistence.exe, Source IP: 192.168.1.50
+2026-06-25 08:50:10, Security, 4624, Successful Login, User: jane.smith, Source IP: 192.168.1.15, Logon Type: 10, Domain: CORP
+2026-06-25 09:00:00, Security, 1102, Audit Log Cleared, Cleared By: admin, Source IP: 192.168.1.50
+2026-06-25 09:05:33, Security, 4625, Failed Login, User: john.doe, Source IP: 172.16.0.200, Logon Type: 3, Domain: CORP
+2026-06-25 09:05:35, Security, 4625, Failed Login, User: john.doe, Source IP: 172.16.0.200, Logon Type: 3, Domain: CORP
+2026-06-25 09:05:37, Security, 4625, Failed Login, User: john.doe, Source IP: 172.16.0.200, Logon Type: 3, Domain: CORP
+2026-06-25 09:10:22, Security, 4624, Successful Login, User: john.doe, Source IP: 192.168.1.10, Logon Type: 2, Domain: CORP
+2026-06-25 09:15:00, Security, 4688, New Process Created, User: jane.smith, Process: chrome.exe, Parent Process: explorer.exe, Source IP: 192.168.1.15
